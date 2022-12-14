@@ -114,7 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
                     <label>Confirmer votre mot de passe</label>
                     <input class="inscription-input" name='confirmpassword' placeholder='confirm password' type="password" />
                 </div>   
-                <input class='inscription-user2' placeholder='confirm password' type="submit" value="Confirmer"/>
+                <input class='inscription-user2' name='submit' type="submit" value="Confirmer"/>
             </div>
         </form>
         
